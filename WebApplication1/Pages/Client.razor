@@ -1,0 +1,33 @@
+﻿@page "/client"
+
+<section class="showcase">
+    <div class="container grid">
+        <div class="showcase-text">
+            <h1>Cadastre-se</h1>
+            <p>Usando suas informações conforme descrito nos campos ao lado, você podera se cadastar no banco de dados de nosso escritorio, e precisa que apenas preencha suas informações nos campos.</p>
+        </div>
+
+        <div class="showcase-form card">
+            <h2>cadastre-se</h2>
+            <form>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Nome" required>
+                </div>
+                <div class="form-control">
+                    <input type="date" name="Date" placeholder="Data de Nascimento" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="CPF" data-mask="000.000.000-00" placeholder="CPF" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Nome da compania" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <input type="submit" value="send" class="btn btn-primary">
+            </form>
+
+        </div>
+    </div>
+</section>
